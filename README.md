@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-<img src="./Images/beta.png">
+<img src="./Images/Cropped.png">
 
 </br>
 
