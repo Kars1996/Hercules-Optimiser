@@ -11,3 +11,9 @@ Repeat if user requested
 Reccomended settings system
 Settings for streamers and recording
 Diffrent presets 
+Make a trello
+
+Done:
+Started gui
+Version Checker
+Most of the basic moduels
