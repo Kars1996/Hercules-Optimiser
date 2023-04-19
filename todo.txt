@@ -12,6 +12,7 @@ Reccomended settings system
 Settings for streamers and recording
 Diffrent presets 
 Make a trello
+Database to track ammount of users
 
 Done:
 Started gui
