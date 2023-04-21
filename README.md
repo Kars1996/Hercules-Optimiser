@@ -5,3 +5,5 @@
 
 <h1 align="center">Coming Soon</h1>
 :wink:
+Join our discord!
+https://discord.gg/kWZ8G4wYnS
