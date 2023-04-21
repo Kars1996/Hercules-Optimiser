@@ -1,6 +1,6 @@
+#Coming Soon
 import os, getpass
 import webbrowser
-#https://discord.gg/kWZ8G4wYnS
 def blue(text):
     os.system(""); faded = ""
     for line in text.splitlines():
