@@ -22,5 +22,6 @@ banner = '''                  :::    ::: :::::::::: :::::::::   ::::::::  :::   
 os.system('cls' if os.name == 'nt' else 'clear')
 print(blue(banner))
 print(blue('        [$] Under Construction'))
+print(blue('        [!] Releasing Soon!'))
 getpass.getpass(prompt=blue('        [+] Press enter to exit the program'))
 quit()
