@@ -1,4 +1,4 @@
-#Coming Soon
+#Coming Soon :D
 import os, getpass
 import webbrowser
 
