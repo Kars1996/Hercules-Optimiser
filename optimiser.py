@@ -1,6 +1,7 @@
 #Coming Soon
 import os, getpass
 import webbrowser
+
 def blue(text):
     os.system(""); faded = ""
     for line in text.splitlines():
@@ -27,7 +28,7 @@ print(blue('        [$] Under Construction'))
 print(blue('        [?] Would you like to join the discord for updates? [Y/N]'))
 Discord_Join = input(str('        > ')).lower()
 while Discord_Join not in ['y', 'n']:
-    print(blue('        [!] Please select either Y or N'))
+    print(blue('        [!] Error: Please select either Y or N'))
     print(blue('        [?] Would you like to join the discord? [Y/N]'))
     Discord_Join = input(str('        > ')).lower()
 if Discord_Join == 'y':
