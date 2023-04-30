@@ -34,10 +34,36 @@ while Discord_Join not in ['y', 'n']:
 if Discord_Join == 'y':
     print(blue('        [$] Opening the discord'))
     webbrowser.open('https://discord.gg/kWZ8G4wYnS')
-    getpass.getpass(prompt=blue('        [+] Press enter to exit the program'))
-    quit()
+    print(blue('        [?] Would you like to check out the trello? [Y/N]'))
+    trello_link = input(str('        > ')).lower()
+    while trello_link not in ['y', 'n']:
+        print(blue('        [!] Error: Please select either Y or N'))
+        print(blue('        [?] Would you like to check out the trello? [Y/N]'))
+        trello_link = input(str('        > ')).lower()       
+    if trello_link == 'y':
+        print(blue('        [$] Opening Trello Link')) 
+        webbrowser.open('https://trello.com/b/QG5KYXsv/todo')
+        getpass.getpass(promt=blue('        [+] Press enter to exit the program'))
+        quit
+    if trello_link == 'n':
+        getpass.getpass(promt=blue('        [+] Press enter to exit the program'))
+        quit
 if Discord_Join == 'n':
-    getpass.getpass(prompt=blue('        [+] Press enter to exit the program'))
-    quit()
+    print(blue('        [?] Would you like to check out the trello? [Y/N]'))
+    trello_link = input(str('        > ')).lower()
+    while trello_link not in ['y', 'n']:
+        print(blue('        [!] Error: Please select either Y or N'))
+        print(blue('        [?] Would you like to check out the trello? [Y/N]'))
+        trello_link = input(str('        > ')).lower()       
+    if trello_link == 'y':
+        print(blue('        [$] Opening Trello Link')) 
+        webbrowser.open('https://trello.com/b/QG5KYXsv/todo')
+        getpass.getpass(promt=blue('        [+] Press enter to exit the program'))
+        quit
+    if trello_link == 'n':
+        getpass.getpass(promt=blue('        [+] Press enter to exit the program'))
+        quit
+    
+
 
 
