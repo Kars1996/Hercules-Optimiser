@@ -7,3 +7,6 @@
 :wink:
 Join our discord!
 https://discord.gg/kWZ8G4wYnS
+
+Link to the trello:
+https://trello.com/b/QG5KYXsv/todo
