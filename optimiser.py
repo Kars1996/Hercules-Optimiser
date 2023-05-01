@@ -43,10 +43,10 @@ if Discord_Join == 'y':
     if trello_link == 'y':
         print(blue('        [$] Opening Trello Link')) 
         webbrowser.open('https://trello.com/b/QG5KYXsv/todo')
-        getpass.getpass(promt=blue('        [+] Press enter to exit the program'))
+        getpass.getpass(prompt=blue('        [+] Press enter to exit the program'))
         quit
     if trello_link == 'n':
-        getpass.getpass(promt=blue('        [+] Press enter to exit the program'))
+        getpass.getpass(prompt=blue('        [+] Press enter to exit the program'))
         quit
 if Discord_Join == 'n':
     print(blue('        [?] Would you like to check out the trello? [Y/N]'))
@@ -58,10 +58,10 @@ if Discord_Join == 'n':
     if trello_link == 'y':
         print(blue('        [$] Opening Trello Link')) 
         webbrowser.open('https://trello.com/b/QG5KYXsv/todo')
-        getpass.getpass(promt=blue('        [+] Press enter to exit the program'))
+        getpass.getpass(prompt=blue('        [+] Press enter to exit the program'))
         quit
     if trello_link == 'n':
-        getpass.getpass(promt=blue('        [+] Press enter to exit the program'))
+        getpass.getpass(prompt=blue('        [+] Press enter to exit the program'))
         quit
     
 
