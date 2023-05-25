@@ -28,7 +28,7 @@ print(blue('        [$] Under Construction'))
 print(blue('        [?] Would you like to join the discord for updates? [Y/N]'))
 Discord_Join = input(str('        > ')).lower()
 while Discord_Join not in ['y', 'n']:
-    print(blue('        [!] Error: Please select either Y or N'))
+    print(blue('        [!] Error: Please select either "Y" or "N"'))
     print(blue('        [?] Would you like to join the discord? [Y/N]'))
     Discord_Join = input(str('        > ')).lower()
 if Discord_Join == 'y':
@@ -37,7 +37,7 @@ if Discord_Join == 'y':
     print(blue('        [?] Would you like to check out the trello? [Y/N]'))
     trello_link = input(str('        > ')).lower()
     while trello_link not in ['y', 'n']:
-        print(blue('        [!] Error: Please select either Y or N'))
+        print(blue('        [!] Error: Please select either "Y" or "N"'))
         print(blue('        [?] Would you like to check out the trello? [Y/N]'))
         trello_link = input(str('        > ')).lower()       
     if trello_link == 'y':
@@ -52,7 +52,7 @@ if Discord_Join == 'n':
     print(blue('        [?] Would you like to check out the trello? [Y/N]'))
     trello_link = input(str('        > ')).lower()
     while trello_link not in ['y', 'n']:
-        print(blue('        [!] Error: Please select either Y or N'))
+        print(blue('        [!] Error: Please select either "Y" or "N"'))
         print(blue('        [?] Would you like to check out the trello? [Y/N]'))
         trello_link = input(str('        > ')).lower()       
     if trello_link == 'y':
