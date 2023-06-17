@@ -1,1 +1,1 @@
-GUI is not finalized and is subject to change
+GUI has not been finalized and may be subject to change
