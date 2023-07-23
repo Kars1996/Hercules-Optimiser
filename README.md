@@ -6,7 +6,7 @@
 <h1 align="center">Coming Soon</h1>
 :wink:
 Join our discord!
-https://discord.gg/kWZ8G4wYnS
+[https://discord.gg/kWZ8G4wYnS](https://discord.gg/vZvMUqjQcp)
 
 Check out our website:
 https://optimiser.tech
