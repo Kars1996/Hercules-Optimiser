@@ -8,5 +8,8 @@
 Join our discord!
 https://discord.gg/kWZ8G4wYnS
 
+Check out our website:
+https://optimiser.tech
+
 Link to the trello:
 https://trello.com/b/QG5KYXsv/todo
