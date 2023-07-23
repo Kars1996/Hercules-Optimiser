@@ -33,7 +33,7 @@ while Discord_Join not in ['y', 'n']:
     Discord_Join = input(str('        > ')).lower()
 if Discord_Join == 'y':
     print(blue('        [$] Opening the discord'))
-    webbrowser.open('https://discord.gg/kWZ8G4wYnS')
+    webbrowser.open('https://discord.gg/vZvMUqjQcp')
     print(blue('        [?] Would you like to check out the trello? [Y/N]'))
     trello_link = input(str('        > ')).lower()
     while trello_link not in ['y', 'n']:
