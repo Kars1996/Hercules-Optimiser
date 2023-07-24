@@ -63,7 +63,3 @@ if Discord_Join == 'n':
     if trello_link == 'n':
         getpass.getpass(prompt=blue('        [+] Press enter to exit the program'))
         quit
-    
-
-
-
